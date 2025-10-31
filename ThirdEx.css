@@ -1,0 +1,119 @@
+.envelope{
+    background-color: rgb(102, 88, 88);
+    height: 500px;
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RedEn{
+    background-color: rgb(173, 36, 36);
+    width: 350px;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+}
+.LRedEn{
+    position: absolute;
+    background-color:rgb(201, 42, 42);
+    height: 450px;
+    width: 250px;
+    rotate: 57deg;
+    right: -15px;
+    top: -5px;
+    z-index: 4;
+}
+.TRedEn{
+    position: absolute;
+    background-color:rgb(138, 47, 47);
+    height: 450px;
+    width: 450px;
+    rotate: 25deg;
+    z-index: 3;
+    left: -279px;
+}
+.URedEn{
+    position: absolute;
+    background-color:rgb(218, 58, 58);
+    height: 100px;
+    width: 350px;
+    z-index: 5;
+    top: 138px;
+}
+.list{
+    position: absolute;
+    background-color: white;
+    height: 190px;
+    width: 300px;
+    z-index: 1;
+    padding: 10px;
+}
+.InfoUp{
+    background-color: rgba(17, 17, 17, 0.808);
+    height: 20px;
+    width: 300px;
+    position: absolute;
+}
+.InfoLeft{
+    background-color: rgb(15, 121, 148);
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    top: 90px;
+}
+.InfoLeftUp{
+    background-color: rgb(15, 121, 148);
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    top: 50px;
+}
+.Round{
+    position: absolute;
+    background-color: rgb(103, 103, 214);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    top: 100px;
+    right: 20px;
+}
+.Pet{
+    background-color: rgb(223, 214, 214);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 10;
+    top: 75px;
+    left: 160px;
+}
+.list:hover{
+    animation: Closed 3s infinite;
+    cursor: pointer;
+}
+.URedEn{
+    animation: Open 10s infinite;
+}
+@keyframes Closed{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+@keyframes Open{
+    0%, 25%{
+        transform: translateY(0px);
+        z-index: 5;
+    }
+    25%, 95%{
+        transform: translateY(-100px);
+        z-index: 0;
+    }
+    95%, 100%{
+        transform: translateY(0px);
+        z-index: 5;
+    }
+}

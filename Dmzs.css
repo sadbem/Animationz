@@ -1,0 +1,187 @@
+body{
+    background-color: rgba(27, 167, 155, 0.479);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.CatBg{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin-left: 100px;
+}
+.LeftEar{
+    background-color: white;
+    height: 150px;
+    width: 80px;
+    position: absolute;
+    left: 70px;
+    top: 80px;
+    transform: rotate(-15deg);
+    border-radius: 1000% 100% 50% 1%;
+}
+.LeftEarC{
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    border-radius: 100% 0 0 0;
+    top: 100px;
+    left: 10px;
+}
+.RightEar{
+    background-color: white;
+    height: 150px;
+    width: 80px;
+    position: absolute;
+    right: 70px;
+    top: 80px;
+    transform: rotate(15deg);
+    border-radius: 100% 1000% 1% 50%;
+}
+.RightEarC{
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    border-radius: 0 100% 0 0;
+    top: 100px;
+    right: 10px;
+}
+.LeftEye{
+    background-color: white;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: 170px;
+    left: 90px;
+    border-radius: 100% 100% 80% 80%;
+}
+.LeftZ{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 50px;
+    left: 65px;
+    top: 20px;
+    border-radius: 100%;
+    z-index: 1;
+    animation: Lookz 2s infinite alternate ease-in-out;
+}
+.LeftX{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    z-index: 1;
+}
+.LeftS{ /*Слезоток*/ 
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    right: -5px;
+    border-radius: 0 60% 60% 0;
+    z-index: 1;
+}
+.RightEye{
+    background-color: white;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 170px;
+    right: 90px;
+    border-radius: 100% 100% 80% 80%;
+}
+.RightZ{ /*Радужка*/ 
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 50px;
+    right: 65px;
+    top: 30px;
+    border-radius: 100%;
+    z-index: 1;
+    animation: Lookx 2s infinite alternate ease-in-out;
+}
+.RightX{ /*Зрачок*/ 
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    z-index: 1;
+}
+.RightS{ /*Слезоток*/ 
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 60px;
+    left: -5px;
+    border-radius: 60% 0 0 60%;
+    z-index: 1;
+}
+.Nose{
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    bottom: 170px;
+    right: 215px;
+    border-radius: 50% 50% 100% 100%;
+}
+.Mounth{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    bottom: 80px;
+    right: 195px;
+    border-radius: 100%;
+}
+
+.Brow{
+    background-color: rgb(0, 0, 0);
+    width: 120px;
+    height: 5px;
+    animation: Blink 5s infinite alternate;
+    position: absolute;
+    z-index: 2;
+    right: -5px;
+}
+
+@keyframes Blink{
+    100%, 5%{
+        height: 0px;
+    }
+    5%, 0%{
+        height: 100px;
+    }
+}
+@keyframes Lookz{
+    from{
+        transform: translateX(-25px);
+    }
+    to{
+        transform: translateX(10px);
+    }
+}
+@keyframes Lookx{
+    from{
+        transform: translateX(-5px);
+    }
+    to{
+        transform: translateX(25px);
+    }
+}
