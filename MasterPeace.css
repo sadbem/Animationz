@@ -115,6 +115,73 @@
     position: absolute;
     animation: Flakes 5s infinite;
 }
+
+.Tree{
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 330px solid green;
+    position: absolute;
+    bottom: 350px;
+    left: 400px;
+}
+.Tree2{
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 300px solid rgb(9, 153, 9);
+    position: absolute;
+    bottom: 350px;
+    left: 430px;
+}
+.Blik{
+    border: 20px solid transparent;
+    border-right: 20px solid rgb(143, 255, 236);
+    border-bottom: 20px solid  rgb(143, 255, 236);
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.Blik2{
+    border: 20px solid transparent;
+    border-right: 20px solid  rgb(143, 255, 236);
+    border-bottom: 20px solid  rgb(143, 255, 236);
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.snowroof{
+    background-color: rgb(233, 231, 231);
+    transform: skew(-17deg);
+    width: 330px;
+    height: 20px;
+    position: absolute;
+    bottom: 200px;
+    left: -20px;
+    z-index: 1;
+}
+.pupe{
+    height: 100px;
+    width: 30px;
+    background-color: rgb(241, 102, 21);
+    position: absolute;
+    z-index: 10;
+    left: 264px;
+    top: -70px;
+}
+
+.ruchka{
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 272px;
+    bottom: 50px;
+    background-color: rgb(207, 207, 0);
+    z-index: 10;
+}
 .SnowFlakes:nth-child(1){
     left: 500px;
     top: 200px;
@@ -179,17 +246,216 @@
     left: 850px;
     top: 300px;
 }
+.SnowFlakes:nth-child(17){
+    left: 800px;
+    top: 275px;
+}
+.SnowFlakes:nth-child(18){
+    left: 679px;
+    top: 350px;
+}
+.SnowFlakes:nth-child(19){
+    left: 630px;
+    top: 250px;
+}
+.SnowFlakes:nth-child(20){
+    left: 890px;
+    top: 300px;
+}
+.SnowFlakes:nth-child(21){
+    left: 640px;
+    top: 230px;
+}
+.SnowFlakes:nth-child(22){
+    left: 900px;
+    top: 430px;
+}
+.SnowFlakes:nth-child(23){
+    left: 745px;
+    top: 300px;
+}
+.SnowFlakes:nth-child(24){
+    left: 700px;
+    top: 141px;
+}
+.SnowFlakes:nth-child(25){
+    left: 500px;
+    top: 140px;
+}
+.SnowFlakes:nth-child(26){
+    left: 720px;
+    top: 250px;
+}
+.SnowFlakes:nth-child(27){
+    left: 840px;
+    top: 230px;
+}
+.SnowFlakes:nth-child(28){
+    left: 830px;
+    top: 200px;
+}
+.SnowFlakes:nth-child(29){
+    left: 810px;
+    top: 350px;
+}
+.SnowFlakes:nth-child(30){
+    left: 860px;
+    top: 240px;
+}
+.SnowFlakes:nth-child(31){
+    left: 790px;
+    top: 200px;
+}
+.SnowFlakes:nth-child(32){
+    left: 830px;
+    top: 150px;
+}.SnowFlakes:nth-child(33){
+    left: 500px;
+    top: 150px;
+}
+.SnowFlakes:nth-child(34){
+    left: 400px;
+    top: 150px;
+}
+.SnowFlakes:nth-child(35){
+    left: 680px;
+    top: 150px;
+}
+.SnowFlakes:nth-child(36){
+    left: 870px;
+    top: 160px;
+}
+.SnowFlakes:nth-child(37){
+    left: 400px;
+    top: 180px;
+}
+.SnowFlakes:nth-child(38){
+    left: 600px;
+    top: 190px;
+}
+.SnowFlakes:nth-child(39){
+    left: 700px;
+    top: 160px;
+}
+.SnowFlakes:nth-child(40){
+    left: 590px;
+    top: 190px;
+}
+.SnowFlakes:nth-child(41){
+    left: 500px;
+    top: 400px;
+}
+.SnowFlakes:nth-child(42){
+    left: 600px;
+    top: 600px;
+}
+.SnowFlakes:nth-child(43){
+    left: 790px;
+    top: 340px;
+}
+.SnowFlakes:nth-child(44){
+    left: 660px;
+    top: 350px;
+}
+.SnowFlakes:nth-child(45){
+    left: 810px;
+    top: 500px;
+}
+.SnowFlakes:nth-child(46){
+    left: 890px;
+    top: 460px;
+}
+.SnowFlakes:nth-child(47){
+    left: 790px;
+    top: 150px;
+}
+.SnowFlakes:nth-child(48){
+    left: 850px;
+    top: 190px;
+}
+.SnowFlakes:nth-child(49){
+    left: 800px;
+    top: 205px;
+}
+.SnowFlakes:nth-child(50){
+    left: 309px;
+    top: 500px;
+}
+.SnowFlakes:nth-child(51){
+    left: 630px;
+    top: 150px;
+}
+.SnowFlakes:nth-child(52){
+    left: 880px;
+    top: 170px;
+}
+.SnowFlakes:nth-child(53){
+    left: 620px;
+    top: 450px;
+}
+.SnowFlakes:nth-child(54){
+    left: 900px;
+    top: 180px;
+}
+.SnowFlakes:nth-child(55){
+    left: 645px;
+    top: 200px;
+}
+.SnowFlakes:nth-child(56){
+    left: 780px;
+    top: 141px;
+}
+.SnowFlakes:nth-child(57){
+    left: 440px;
+    top: 140px;
+}
+.SnowFlakes:nth-child(58){
+    left: 380px;
+    top: 159px;
+}
+.SnowFlakes:nth-child(59){
+    left: 860px;
+    top: 243px;
+}
+.SnowFlakes:nth-child(60){
+    left: 800px;
+    top: 400px;
+}
+.SnowFlakes:nth-child(61){
+    left: 810px;
+    top: 250px;
+}
+.SnowFlakes:nth-child(62){
+    left: 860px;
+    top: 278px;
+}
+.SnowFlakes:nth-child(63){
+    left: 790px;
+    top: 389px;
+}
+.SnowFlakes:nth-child(64){
+    left: 850px;
+    top: 400px;
+}
+
 @keyframes Flakes{
-    25%{
+    10%{
         transform: translateX(10px) translateY(10px);
     }
-    50%{
-        transform: translateX(-10px) translateY(20px);
+    20%{
+        transform: translateX(-5px) translateY(20px);
     }
-    75%{
+    30%{
         transform: translateX(10px) translateY(30px);
     }
-    100%{
+    40%{
         transform: translateX(-10px) translateY(40px);
     }
+    55%{
+        transform: translateX(10px) translateY(50px);
+    }
+    70%{transform: translateX(-10px) translateY(60px);}
+    80%{transform: translateX(10px) translateY(70px);}
+    90%{transform: translateX(-10px) translateY(80px);}
+    100%{transform: translateX(10px) translateY(90px);}
 }
